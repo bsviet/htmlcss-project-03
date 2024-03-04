@@ -473,3 +473,41 @@ a {
 .member__control-next-icon {
     rotate: 180deg;
 }
+
+/* Install */
+
+.install__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 180px;
+    padding: 0 70px;
+    border-radius: 4px;
+    background: #2e80ce;
+}
+
+.install__img {
+    display: block;
+    margin-top: -95px;
+    max-width: 284px;
+    height: 522px;
+}
+
+.install__info {
+    max-width: 586px;
+}
+
+.install__row {
+    display: flex;
+    column-gap: 28px;
+    margin-top: 38px;
+}
+
+.install__heading,
+.install__desc {
+    color: #fff;
+}
+
+.install__heading {
+    max-width: 489px;
+}
