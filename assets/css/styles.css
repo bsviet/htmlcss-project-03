@@ -20,6 +20,12 @@ a {
     text-decoration: none;
 }
 
+input,
+textarea,
+select,
+button {
+    font-family: inherit;
+}
 .container {
     width: 1170px;
     max-width: calc(100% - 48px);
@@ -140,6 +146,7 @@ a {
 
 .logo__brand {
     display: block;
+    font-family: "Sora", sans-serif;
     color: #fff;
     font-size: 1.8em;
     font-weight: 400;
@@ -619,7 +626,7 @@ a {
 
 .appointment__content {
     text-align: center;
-    margin-top: 85px;
+    margin: 85px 0 170px 0;
     padding: 100px 0;
     background: #f6fbff;
     border-radius: 4px;
@@ -653,4 +660,99 @@ a {
 
 .appointment__cta {
     margin-top: 38px;
+}
+
+/* Footer */
+.footer {
+    background: #10375c;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 100px;
+}
+
+.footer__row {
+    display: grid;
+    grid-template-columns: 1fr 0.4fr 0.4fr 1fr;
+    column-gap: 78px;
+}
+
+.footer__desc {
+    margin-top: 21px;
+    color: #a9b3bb;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.footer__heading {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75;
+}
+
+.footer__list {
+    margin-bottom: 28px;
+}
+
+.footer__item {
+    margin-bottom: 10px;
+}
+
+.footer__link {
+    color: #a9b3bb;
+    font-size: 1.4rem;
+    line-height: 1.85;
+    white-space: nowrap;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.footer__social {
+    margin-bottom: 28px;
+}
+
+.footer-form {
+    display: flex;
+    column-gap: 12px;
+    margin-top: 10px;
+}
+
+.footer-form__input {
+    width: 212px;
+    height: 46px;
+    padding: 0 10px;
+    outline: none;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid #406181;
+    background: transparent;
+}
+
+.footer-form__input::placeholder {
+    color: #9ca8b1;
+    font-size: 1.4rem;
+    line-height: 1.85;
+}
+
+.footer-form__submit {
+    --height: 46px;
+
+    min-width: 108px;
+    font-size: 1.4rem;
+    border-radius: 4px;
+}
+
+.footer__copyright {
+    border-top: 1px solid #406181;
+}
+
+.footer__copyright-text {
+    padding: 28px 0 42px 0;
+    color: #aab3ba;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.85;
 }
